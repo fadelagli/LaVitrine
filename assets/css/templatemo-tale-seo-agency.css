@@ -112,9 +112,9 @@ ul {
 }
 
 p {
-  font-size: 15px;
+  font-size: 20px;
   line-height: 30px;
-  color: #afafaf;
+  color: black;
 }
 
 img {
@@ -203,7 +203,7 @@ body {
   height: 2px;
   margin-bottom: 20px;
   background: #f50101;
-  background: linear-gradient(90deg, rgba(85,0,227,1) 0%, #f50101 100%);
+  background: linear-gradient(90deg, #4fa5ee , #f50101 100%);
 }
 
 .section-heading h2 {
@@ -297,7 +297,7 @@ Pre-loader Style
   height: 16px;
   top: 12px;
   left: 15px;
-  background: #5b03e4;
+  background: #4fa5ee;
   border-radius: 50%;
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -320,7 +320,7 @@ Pre-loader Style
   width: 16px;
   height: 16px;
   margin-left: 16px;
-  background: #5b03e4;
+  background: #4fa5ee;
   border-radius: 50%;
 }
 
@@ -528,7 +528,7 @@ Header Style
 
 .header-area .main-nav .nav li.has-sub ul li a:hover {
   background: #fff;
-  color: #5b03e4!important;
+  color: #4fa5ee!important;
   padding-left: 25px;
 }
 
@@ -684,7 +684,7 @@ Header Style
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #5b03e4!important;
+    color: #4fa5ee!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -745,7 +745,7 @@ Header Style
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #5b03e4!important;
+    color: #4fa5ee!important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
@@ -798,7 +798,7 @@ Header Style
 .pre-header .left-info ul li {
   margin-right: 15px;
   padding-right: 15px;
-  border-right: 1px solid #dfb6ff;
+  border-right: 1px solid #4fa5ee;
 }
 
 .pre-header .left-info ul li a {
@@ -811,7 +811,7 @@ Header Style
 }
 
 .pre-header ul li a {
-  color: #a586bc;
+  color: #4fa5ee;
   transition: all .4s;
 }
 
@@ -829,7 +829,7 @@ Header Style
 }
 
 .pre-header ul li a:hover {
-  color: #c03afe;
+  color: #4fa5ee;
 }
 
 /* 
@@ -865,7 +865,7 @@ Banner Style
 
 .main-banner h6 {
   font-size: 20px;
-  color: #5b03e4;
+  color: black;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -878,20 +878,20 @@ Banner Style
 }
 
 .main-banner h4 {
-  font-size: 52px;
+  font-size: 22px;
   color: #2a2a2a;
-  font-weight: 700;
-  line-height: 70px;
-  margin-bottom: 20px;
+  font-weight: 400;
+  line-height: 37px;
+  margin-bottom: 10px;
 }
 
 .main-banner h4 em {
   font-style: normal;
-  color: #5b03e4;
+  color: #4fa5ee;
 }
 
 .main-banner h4 span {
-  color: #c03afe;
+  color: #4fa5ee;
 }
 
 .main-banner p {
@@ -973,7 +973,7 @@ Services Style
 }
 
 .services .service-item:hover h4 {
-  color: #5b03e4;
+  color: #4fa5ee;
 }
 
 /* 
@@ -1023,7 +1023,7 @@ Projects Style
   position: absolute;
   right: 30px;
   top: 50%;
-  color: #5b03e4;
+  color: #4fa5ee;
   transform: translateY(-23px);
 }
 
@@ -1043,7 +1043,7 @@ Projects Style
   font-size: 24px;
   display: inline-block;
   color: #fff;
-  background-color: #5b03e4;
+  background-color: #4fa5ee;
   border-radius: 50%;
   opacity: 0.5;
   transition: all .3s;
@@ -1111,13 +1111,13 @@ Infos Style
 
 .infos .main-content .skill-slide .fill {
   height: 10px;
-  background-color: #5b03e4;
+  background-color: #f50101;
   border-radius: 5px;
 }
 
 .infos .main-content .skill-slide h6 {
   position: absolute;
-  color: #5b03e4;
+  color: #4fa5ee;
   font-size: 15px;
   left: 0;
   top: -25px;
@@ -1125,7 +1125,7 @@ Infos Style
 
 .infos .main-content .skill-slide span {
   position: absolute;
-  color: #5b03e4;
+  color: #4fa5ee;
   font-size: 15px;
   font-weight: 700;
   top: -25px;
@@ -1248,7 +1248,7 @@ Contact Style
 #contact-form button {
   border: none;
   height: 46px;
-  background-color: #5b03e4;
+  background-color: #4fa5ee;
   width: 100%;
   border-radius: 23px;
   color: #fff;
@@ -1261,8 +1261,8 @@ Contact Style
 
 .contact-us-content .more-info {
   text-align: center;
-  background: rgb(85,0,227);
-  background: linear-gradient(90deg, rgba(85,0,227,1) 0%, rgba(198,61,255,1) 100%);
+  background: #4fa5ee;
+  background: linear-gradient(90deg, #4fa5ee, rgba(198,61,255,1) 100%);
   border-radius: 0px 0px 23px 23px;
   padding: 45px 30px 15px 30px;
 }
@@ -1303,7 +1303,7 @@ footer p a {
 }
 
 footer p a:hover {
-  color: #5b03e4;
+  color: #4fa5ee;
 }
 
 /* 
@@ -1329,7 +1329,7 @@ Page Heading Style
 
 .page-heading h6 {
   font-size: 20px;
-  color: #5b03e4;
+  color: #4fa5ee;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -1351,11 +1351,11 @@ Page Heading Style
 
 .page-heading h4 em {
   font-style: normal;
-  color: #5b03e4;
+  color: #4fa5ee;
 }
 
 .page-heading h4 span {
-  color: #c03afe;
+  color: #4fa5ee;
 }
 
 .page-heading p {
@@ -1406,7 +1406,7 @@ Infos Style
   transform: translate(-23px, -23px);
   background-color: #fff;
   border-radius: 50%;
-  color: #5b03e4;
+  color: #4fa5ee;
   display: inline-block;
   text-align: center;
   width: 46px;
@@ -1446,7 +1446,7 @@ Infos Style
 
 .video-info .skill-slide .fill {
   height: 10px;
-  background-color: #5b03e4;
+  background-color: #4fa5ee;
   border-radius: 5px;
 }
 
@@ -1561,7 +1561,7 @@ Happy Clients Style
 }
 
 .happy-clients .naccs .menu div.active {
-  color: #5b03e4;
+  color: #4fa5ee;
 }
 
 .happy-clients ul.nacc {
@@ -1593,7 +1593,7 @@ Happy Clients Style
 }
 
 .happy-clients ul.nacc li .line-dec {
-  background-color: #5b03e4;
+  background-color: #4fa5ee;
   width: 60px;
   height: 2px;
   margin-bottom: 25px;
@@ -1605,7 +1605,7 @@ Happy Clients Style
 
 .happy-clients ul.nacc li .info span {
   display: inline-block;
-  background-color: #5b03e4;
+  background-color: #4fa5ee;
   border-radius: 20px;
   height: 40px;
   line-height: 40px;
@@ -1656,7 +1656,7 @@ CTA Style
 
 .cta .main-button a {
   background-color: #fff;
-  color: #5b03e4;
+  color: #4fa5ee;
   margin-top: 30px;
 }
 
@@ -1771,7 +1771,7 @@ Most Asked Style
 }
 
 .most-asked .accordion-head.is-open {
-  color: #5b03e4;
+  color: #4fa5ee;
   border-bottom: none;
 }
 
@@ -1825,7 +1825,7 @@ Most Asked Style
 #free-quote button {
   border: none;
   height: 46px;
-  background-color: #5b03e4;
+  background-color: #4fa5ee;
   width: 100%;
   border-radius: 23px;
   color: #fff;
@@ -1869,7 +1869,7 @@ body {
     padding: 185px 0px;
   }
   .main-banner h4 {
-    font-size: 36px;
+    font-size: 20px;
     line-height: 44px;
   }
   .main-banner span {
