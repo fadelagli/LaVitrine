@@ -1,0 +1,9 @@
+Color For La Vitrine Logo : 
+
+Red: #f50101
+
+Blue: #4fa5ee
+
+White: normal white pure 
+
+Grey :  #6e6e6f
