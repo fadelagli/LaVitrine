@@ -115,7 +115,9 @@ html, body {
 a {
   text-decoration: none !important;
 }
-
+.h6 {
+  font-size: 20px;
+}
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -127,7 +129,7 @@ ul {
 }
 
 p {
-  font-size: 20px;
+  font-size: 25px;
   line-height: 30px;
   color: black;
 }
@@ -249,20 +251,22 @@ Pre-loader Style
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0,0,0,0.99);
-  display: -webkit-box;
+  width: 100%;
+  height: 100%;
+  background-color: #fff; /* Adjust this to match your design */
   display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
   justify-content: center;
-  opacity: 1;
-  visibility: visible;
+  align-items: center;
   z-index: 9999;
-  -webkit-transition: opacity 0.25s ease;
-  transition: opacity 0.25s ease;
+}
+.preloader-inner {
+  text-align: center;
+}
+
+.preloader-logo {
+  width: 100px; /* Adjust the size as needed */
+  height: auto;
+  animation: rotateY 2s linear infinite;
 }
 
 .js-preloader.loaded {
@@ -271,7 +275,7 @@ Pre-loader Style
   pointer-events: none;
 }
 
-@-webkit-keyframes dot {
+/* @-webkit-keyframes dot {
   50% {
       -webkit-transform: translateX(96px);
       transform: translateX(96px);
@@ -297,7 +301,7 @@ Pre-loader Style
       -webkit-transform: translateX(-31px);
       transform: translateX(-31px);
   }
-}
+} */
 
 .preloader-inner {
   position: relative;
@@ -349,10 +353,10 @@ Pre-loader Style
 /* Rotation animation */
 @keyframes rotate {
   0% {
-    transform: rotate(0deg);
+    transform: rotateY(-0deg);
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotateY(360deg);
   }
 }
 
@@ -1148,7 +1152,7 @@ Infos Style
 
 .infos .main-content .skill-slide h6 {
   position: absolute;
-  color: #4fa5ee;
+  color: #6e6e6f;
   font-size: 15px;
   left: 0;
   top: -25px;
@@ -1156,7 +1160,7 @@ Infos Style
 
 .infos .main-content .skill-slide span {
   position: absolute;
-  color: #4fa5ee;
+  color: #6e6e6f;
   font-size: 15px;
   font-weight: 700;
   top: -25px;
